@@ -1,0 +1,109 @@
+.ask{
+    background: linear-gradient(150deg,#031B88,#6096FD);
+    background: linear-gradient(var(--gradient-orientation,90deg),#031B88,#6096FD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align:center; 
+    font-weight:900;
+    font-size:50px;
+    margin-left:209px;
+    margin-top:-54px;
+    text-decoration:underline;
+   }
+
+.div2{
+    background:linear-gradient(330deg,#78DFF2,#B2F7EF);
+    height:600px;
+    width:600px;
+}
+
+.maindiv{
+    display:flex;
+    flex-direction:row;
+    background-color:whitesmoke;
+    width:100%;
+}
+
+.image{
+    margin-top:160px;
+    margin-left:94px; 
+    width:249px;
+    height: 265px;
+}
+
+.askheading{
+    text-align:center;
+    margin-top:10px;
+    font-weight:600;
+    margin-left:-20px;
+}
+
+.choose{
+    margin-left:248px ;
+    margin-top:30px;
+    font-size:20px;
+    align-items:center;
+
+}
+
+@media only screen  and (min-width:320px) and (max-width:374px){
+    .maindiv{
+        display: flex;
+        flex-direction: column;
+        width: 231%;
+        height: 1440px;
+    }
+
+    .image img{
+        margin-top:-60px;
+        margin-left:94px; 
+        width: 500px;
+       
+    }
+
+    /* .div2{
+        background:linear-gradient(330deg,#78DFF2,#B2F7EF);
+        height: 1200px;
+        width: 1200px;
+      } */
+
+    .askheading{
+        text-align:center;
+        margin-top:10px;
+        font-weight:600;
+        margin-left: 60px;
+        font-size: 30px;
+    }
+
+    .image p{
+        width: 414px;
+    }
+
+    .div2{
+        height: 800px;
+        width: 628px;
+        margin-top: 109px;
+    }
+}
+
+@media only screen  and (min-width:375px) and (max-width:424px){
+    .maindiv{
+        display: flex;
+        flex-direction: column;
+        width: 231%;
+    }
+
+    .image img{
+        margin-top:-60px;
+        margin-left:94px; 
+        width:549px;
+    }
+
+    .askheading{
+        text-align:center;
+        margin-top:10px;
+        font-weight:600;
+        margin-left:200px;
+        font-size: 41px;
+    }
+}

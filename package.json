@@ -1,0 +1,45 @@
+{
+  "name": "edezy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "start:prod": "next start -p 3300",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "autoprefixer": "^10.4.4",
+    "await-to-js": "^3.0.0",
+    "cookie": "^0.5.0",
+    "cookie-cutter": "^0.2.0",
+    "cookies-next": "^2.0.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "firebase": "^8.6.2",
+    "formik": "^2.2.9",
+    "memory-cache": "^0.2.0",
+    "next": "^12.1.6",
+    "nookies": "^2.5.2",
+    "postcss": "^8.4.12",
+    "postprocessing": "^6.26.3",
+    "pure-react-carousel": "^1.28.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-icons": "^4.3.1",
+    "react-toastify": "^9.0.5",
+    "react-top-loading-bar": "^2.1.0",
+    "sharp": "^0.30.6",
+    "tailwindcss": "^3.0.23",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}

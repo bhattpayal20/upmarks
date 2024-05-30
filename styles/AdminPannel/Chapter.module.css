@@ -1,0 +1,286 @@
+/* @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+.maincard{
+    width: 100%;
+    height: auto;
+}
+
+.card1,.card2 ,.card3, .card4, .card5, .card6, .card7,.card8, .card9, .card10{
+    margin-bottom: 0.6rem;
+    /* width: 50re,; */
+    background : linear-gradient (blueviolet, white);
+    /* background: linear-gradient(90deg,blue , white); */
+    align-items: center;
+    /* margin-left: 30px; */
+    
+}
+
+.card11{
+    /* width: 50rem; */
+    background-color: white;
+    width: 94%;
+    /* margin-left: 12.5rem; */
+    border-radius: 0.6rem;
+    margin-top: -11.25rem;
+    position: absolute;
+
+}
+
+.newcard{
+    padding: 11px;
+}
+
+/* .main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1100px;
+    background-color: grey;
+} */
+
+.card1{ 
+   /* width: 50rem; */
+   color : black;
+   cursor: pointer;
+}
+
+.chapter{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 5.25rem;
+    margin-top: -3.125rem;
+}
+
+
+
+.icon{
+    margin-left: 691px;
+    margin-top: -30px;
+    cursor: pointer;
+}
+
+.cardcard1{
+    margin-bottom: 10px;
+    margin-top: 31px;
+    color: white;
+    height: 60px;
+    /* background-color: ; */
+    background: linear-gradient(90deg, #2D3452, #3759CD);
+
+}
+
+.Weightage{
+    color: white;
+    margin-top: -24px;
+}
+
+.handicon{
+    margin-top: -10px;
+}
+
+.number{
+    background-color: white;
+    width: 3.125rem;
+    height: 3.125rem;
+    color: black;
+    margin-top: -0.7rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.25rem;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem; 
+}
+
+.numbernumber{
+    margin: 2px;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+
+.heading{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: -70px; */
+    /* margin: 20px; */
+    /* margin: 30px; */
+}
+
+.subtopic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    height: 15px;
+    /* background: linear-gradient(bluevoilet, pink); */
+}
+
+
+.subtopic1{
+    margin-top: -5px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: -24px;
+}
+
+.banner{
+    background-image: linear-gradient(14deg, rgba(91, 91, 91, 0.05) 0%, rgba(91, 91, 91, 0.05) 25%,rgba(242, 242, 242, 0.05) 25%, rgba(242, 242, 242, 0.05) 50%,rgba(100, 100, 100, 0.05) 50%, rgba(100, 100, 100, 0.05) 75%,rgba(249, 249, 249, 0.05) 75%, rgba(249, 249, 249, 0.05) 100%),linear-gradient(12deg, rgba(44, 44, 44, 0.05) 0%, rgba(44, 44, 44, 0.05) 25%,rgba(41, 41, 41, 0.05) 25%, rgba(41, 41, 41, 0.05) 50%,rgba(139, 139, 139, 0.05) 50%, rgba(139, 139, 139, 0.05) 75%,rgba(250, 250, 250, 0.05) 75%, rgba(250, 250, 250, 0.05) 100%),linear-gradient(144deg, rgba(111, 111, 111, 0.05) 0%, rgba(111, 111, 111, 0.05) 25%,rgba(205, 205, 205, 0.05) 25%, rgba(205, 205, 205, 0.05) 50%,rgba(184, 184, 184, 0.05) 50%, rgba(184, 184, 184, 0.05) 75%,rgba(152, 152, 152, 0.05) 75%, rgba(152, 152, 152, 0.05) 100%),linear-gradient(90deg, rgb(35, 40, 64),rgb(24, 66, 207));
+    align-items: center;
+    font-size: 60px;
+    text-align: center;
+    padding: auto;
+    margin-top: -21px;
+    padding-top: 30px;
+    height: 30rem;
+    width: 100%;
+    color: white;
+    z-index:  -10;
+}
+
+.box{
+    width: 450px;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 374px){
+    .cardcard1{
+        margin-bottom: 10px;
+        margin-top: 11px;
+        color: white;
+        height: 82px;
+        /* background-color: ; */
+        background: linear-gradient(90deg, #2D3452, #3759CD);
+    }
+
+    .subtopic1{
+        margin-top: -5px;
+        font-weight: 500;
+        margin-left: 40px;
+        margin-top: -32px;
+    }
+
+    .Weightage{
+        font-size: 10px;
+    }
+
+    .chapter{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-left: 4.25rem;
+        margin-top: -3.25rem;
+    }
+}
+
+
+@media only screen and (min-width : 375px) and (max-width : 424px){
+    .cardcard1{
+        margin-bottom: 10px;
+        margin-top: 11px;
+        color: white;
+        height: 82px;
+        /* background-color: ; */
+        background: linear-gradient(90deg, #2D3452, #3759CD);
+    }
+
+    .subtopic1{
+        margin-top: -5px;
+        font-weight: 500;
+        margin-left: 40px;
+        margin-top: -32px;
+    }
+
+    .Weightage{
+        font-size: 10px;
+    }
+
+    .chapter{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-left: 4.25rem;
+        margin-top: -3.25rem;
+    }
+}
+
+
+ 
+@media only screen and (min-width : 1024px) and (max-width : 1439px){
+    .maincard{
+        width: 100%;
+        height: auto;
+    }
+
+    .banner{
+        background-image: linear-gradient(14deg, rgba(91, 91, 91, 0.05) 0%, rgba(91, 91, 91, 0.05) 25%,rgba(242, 242, 242, 0.05) 25%, rgba(242, 242, 242, 0.05) 50%,rgba(100, 100, 100, 0.05) 50%, rgba(100, 100, 100, 0.05) 75%,rgba(249, 249, 249, 0.05) 75%, rgba(249, 249, 249, 0.05) 100%),linear-gradient(12deg, rgba(44, 44, 44, 0.05) 0%, rgba(44, 44, 44, 0.05) 25%,rgba(41, 41, 41, 0.05) 25%, rgba(41, 41, 41, 0.05) 50%,rgba(139, 139, 139, 0.05) 50%, rgba(139, 139, 139, 0.05) 75%,rgba(250, 250, 250, 0.05) 75%, rgba(250, 250, 250, 0.05) 100%),linear-gradient(144deg, rgba(111, 111, 111, 0.05) 0%, rgba(111, 111, 111, 0.05) 25%,rgba(205, 205, 205, 0.05) 25%, rgba(205, 205, 205, 0.05) 50%,rgba(184, 184, 184, 0.05) 50%, rgba(184, 184, 184, 0.05) 75%,rgba(152, 152, 152, 0.05) 75%, rgba(152, 152, 152, 0.05) 100%),linear-gradient(90deg, rgb(35, 40, 64),rgb(24, 66, 207));
+        align-items: center;
+        font-size: 60px;
+        text-align: center;
+        padding: auto;
+        margin-top: -21px;
+        padding-top: 30px;
+        /* width: 766px; */
+    }
+
+    .card11{
+        width: 670px;
+        background-color: white;
+        margin-left: 50px;
+        border-radius: 10px;
+    }
+
+    .card1{
+        width: 670px;
+    }
+
+    .heading{
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width : 1440px) and (max-width : 2559px){
+    .maincard{
+        width: 100%;
+        height: auto;
+    }
+
+    .banner{
+        background-image: linear-gradient(14deg, rgba(91, 91, 91, 0.05) 0%, rgba(91, 91, 91, 0.05) 25%,rgba(242, 242, 242, 0.05) 25%, rgba(242, 242, 242, 0.05) 50%,rgba(100, 100, 100, 0.05) 50%, rgba(100, 100, 100, 0.05) 75%,rgba(249, 249, 249, 0.05) 75%, rgba(249, 249, 249, 0.05) 100%),linear-gradient(12deg, rgba(44, 44, 44, 0.05) 0%, rgba(44, 44, 44, 0.05) 25%,rgba(41, 41, 41, 0.05) 25%, rgba(41, 41, 41, 0.05) 50%,rgba(139, 139, 139, 0.05) 50%, rgba(139, 139, 139, 0.05) 75%,rgba(250, 250, 250, 0.05) 75%, rgba(250, 250, 250, 0.05) 100%),linear-gradient(144deg, rgba(111, 111, 111, 0.05) 0%, rgba(111, 111, 111, 0.05) 25%,rgba(205, 205, 205, 0.05) 25%, rgba(205, 205, 205, 0.05) 50%,rgba(184, 184, 184, 0.05) 50%, rgba(184, 184, 184, 0.05) 75%,rgba(152, 152, 152, 0.05) 75%, rgba(152, 152, 152, 0.05) 100%),linear-gradient(90deg, rgb(35, 40, 64),rgb(24, 66, 207));
+        align-items: center;
+        font-size: 60px;
+        text-align: center;
+        padding: auto;
+        margin-top: -21px;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .card11{
+        width: 849px;
+        background-color: white;
+        margin-left: 150px;
+        border-radius: 10px;
+    }
+
+    .card1{
+        width: 848px;
+        background-color: white;
+    }
+
+    .heading{
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+    }
+}

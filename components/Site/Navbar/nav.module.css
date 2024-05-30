@@ -1,0 +1,129 @@
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 7px;
+}
+.dropdownContent a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 7px;
+}
+
+.dropbtn {
+  /* background-color: #4CAF50; */
+  /* color: white; */
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  color: #111;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownContent a:hover {
+  background-color: #f1f1f1;
+}
+
+.infraMenu {
+  color: black;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+.signin_btn {
+  padding: 10px 25px;
+  box-shadow: 0 0 10px rgb(183 178 178) !important;
+  background-image: linear-gradient(
+    to right,
+    #ff8008 0%,
+    #ffc837 51%,
+    #ff8008 100%
+  );
+  /* -moz-box-shadow: 0 0 20px rgb(77, 77, 77);
+   -webkit-box-shadow: 0 0 20px rgb(77, 77, 77); */
+}
+
+.signin_btn_forsubject {
+  padding: 10px 25px;
+  background-image: linear-gradient(
+    to right,
+    #00e0ef 0%,
+    #009dcc 51%,
+    #009dcc 100%
+  ) !important;
+  box-shadow: 0 0 10px rgb(183 178 178) !important;
+}
+
+.navigation {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  padding: 5px;
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar_right {
+  float: right;
+  padding-right: 10%;
+}
+
+.navbar_right a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  font-family: Arial;
+  font-weight: 900;
+}
+
+.navbar_right a:hover {
+  text-decoration: underline;
+}
+.navbar_logo {
+  padding-left: 10%;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}

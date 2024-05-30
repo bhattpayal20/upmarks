@@ -1,0 +1,55 @@
+.h{
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    align-items: center;
+    border-spacing: 15px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    /* border-spacing: 15px; */
+
+    
+  }
+  .head{
+      text-align: center;
+      padding: 8px;
+      background: linear-gradient(45deg, blue 7%,#FF718E 100%);  
+      color: white;   
+  }
+  .data{
+    text-align: center;
+    /* padding: 8px;  */
+    align-items: center; 
+    margin:auto;
+  }
+  .data1{
+    text-align: center;
+    padding: 8px;
+    font-size: larger;
+    font-weight: 500;
+    color:white;
+  }
+  .tick{
+      margin: auto;
+  }
+  .row:nth-child(even){background : linear-gradient(90deg , #32384E ,#3759CD)}
+  .row:nth-child(odd){background : linear-gradient(90deg , #32384E ,#3759CD)}
+  .row{
+      color: white;
+  }
+.headrow{
+    height: 10vh;
+}
+
+.main{
+  width: 100%;
+}
+
+/* .row{
+  cur
+} */
